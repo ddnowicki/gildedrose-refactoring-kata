@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ddnow\Documents\Projects\C++\bakcyl\gildedrose-refactoring-kata\cpp\GildedRose.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ddnow\Documents\Projects\C++\bakcyl\gildedrose-refactoring-kata\cpp\GildedRoseTextTests.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ddnow\Documents\Projects\C++\bakcyl\gildedrose-refactoring-kata\cpp\GildedRose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ddnow\Documents\Projects\C++\bakcyl\gildedrose-refactoring-kata\cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E4EE7373-B956-33EA-AC0C-FC93748CEB78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3EA8D19A-F5C2-3A46-8703-28E3DF28F9EA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

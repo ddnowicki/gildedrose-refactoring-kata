@@ -75,7 +75,7 @@ GildedRoseUnitTests.o : $(USER_DIR)/GildedRoseUnitTests.cc \
   $(GTEST_HEADERS)
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(USER_DIR)/GildedRoseUnitTests.cc
 
-GildedRose : GildedRoseUnitTests.o GildedRose.o gtest.a gtest_main.a
+GildedRose :  gtest.a gtest_main.a GildedRoseUnitTests.o GildedRose.o
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -pthread $^ -o $@
 
 GildedRoseTextTests.o : $(USER_DIR)/GildedRoseTextTests.cc

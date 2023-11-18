@@ -1,0 +1,10 @@
+^C:\USERS\DDNOW\DOCUMENTS\PROJECTS\C++\BAKCYL\GILDEDROSE-REFACTORING-KATA\CPP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp -BC:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build --check-stamp-file C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

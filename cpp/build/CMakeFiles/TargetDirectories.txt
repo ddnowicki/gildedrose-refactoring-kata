@@ -1,0 +1,15 @@
+C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/GildedRose.dir
+C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/GildedRoseTextTests.dir
+C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/INSTALL.dir
+C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/_deps/googletest-build/CMakeFiles/INSTALL.dir
+C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/_deps/googletest-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir
+C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir
+C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/_deps/googletest-build/googlemock/CMakeFiles/INSTALL.dir
+C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/_deps/googletest-build/googlemock/CMakeFiles/ALL_BUILD.dir
+C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir
+C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir
+C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/_deps/googletest-build/googletest/CMakeFiles/INSTALL.dir
+C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/_deps/googletest-build/googletest/CMakeFiles/ALL_BUILD.dir

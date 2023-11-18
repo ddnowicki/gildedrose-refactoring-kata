@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ddnow\Documents\Projects\C++\bakcyl\gildedrose-refactoring-kata\cpp\build\_deps\googletest-subbuild\CMakeFiles\c611b0a2f3ad42d376a6c9560cf07cdb\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5108DBEC-7B21-3EF3-8085-D7892B6909A8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

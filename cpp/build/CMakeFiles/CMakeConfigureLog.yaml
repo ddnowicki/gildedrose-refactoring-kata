@@ -1,0 +1,397 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+      Kompilacja rozpoczęła się 18.11.2023 19:42:35.
+      
+      Projekt "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\3.28.0-rc4\\CompilerIdC\\CompilerIdC.vcxproj" w węźle 1 (domyślne elementy docelowe).
+      PrepareForBuild:
+        Tworzenie katalogu "Debug\\".
+        Tworzenie katalogu "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Trwa tworzenie "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+        Modyfikowanie "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\3.28.0-rc4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Usuwanie pliku "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Modyfikowanie "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Kompilowanie projektu "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\3.28.0-rc4\\CompilerIdC\\CompilerIdC.vcxproj" wykonane (domyślne elementy docelowe).
+      
+      Kompilacja powiodła się.
+          Ostrzeżenia: 0
+          Liczba błędów: 0
+      
+      Czas, który upłynął: 00:00:00.45
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/3.28.0-rc4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+      Kompilacja rozpoczęła się 18.11.2023 19:42:36.
+      
+      Projekt "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\3.28.0-rc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" w węźle 1 (domyślne elementy docelowe).
+      PrepareForBuild:
+        Tworzenie katalogu "Debug\\".
+        Tworzenie katalogu "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Trwa tworzenie "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+        Modyfikowanie "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\3.28.0-rc4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Usuwanie pliku "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Modyfikowanie "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Kompilowanie projektu "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\3.28.0-rc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" wykonane (domyślne elementy docelowe).
+      
+      Kompilacja powiodła się.
+          Ostrzeżenia: 0
+          Liczba błędów: 0
+      
+      Czas, który upłynął: 00:00:00.35
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/3.28.0-rc4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-eyf8of"
+      binary: "C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-eyf8of"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-eyf8of'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_01be4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 18.11.2023 19:42:37.
+        
+        Projekt "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eyf8of\\cmTC_01be4.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_01be4.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eyf8of\\Debug\\".
+          Tworzenie katalogu "cmTC_01be4.dir\\Debug\\cmTC_01be4.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_01be4.dir\\Debug\\cmTC_01be4.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_01be4.dir\\Debug\\cmTC_01be4.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_01be4.dir\\Debug\\\\" /Fd"cmTC_01be4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32824 dla x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_01be4.dir\\Debug\\\\" /Fd"cmTC_01be4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eyf8of\\Debug\\cmTC_01be4.exe" /INCREMENTAL /ILK:"cmTC_01be4.dir\\Debug\\cmTC_01be4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-eyf8of/Debug/cmTC_01be4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-eyf8of/Debug/cmTC_01be4.lib" /MACHINE:X64  /machine:x64 cmTC_01be4.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_01be4.vcxproj -> C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eyf8of\\Debug\\cmTC_01be4.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_01be4.dir\\Debug\\cmTC_01be4.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_01be4.dir\\Debug\\cmTC_01be4.tlog\\cmTC_01be4.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eyf8of\\cmTC_01be4.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.34
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-76v7nt"
+      binary: "C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-76v7nt"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-76v7nt'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cd4a1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 18.11.2023 19:42:37.
+        
+        Projekt "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76v7nt\\cmTC_cd4a1.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_cd4a1.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76v7nt\\Debug\\".
+          Tworzenie katalogu "cmTC_cd4a1.dir\\Debug\\cmTC_cd4a1.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_cd4a1.dir\\Debug\\cmTC_cd4a1.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_cd4a1.dir\\Debug\\cmTC_cd4a1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cd4a1.dir\\Debug\\\\" /Fd"cmTC_cd4a1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32824 dla x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cd4a1.dir\\Debug\\\\" /Fd"cmTC_cd4a1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76v7nt\\Debug\\cmTC_cd4a1.exe" /INCREMENTAL /ILK:"cmTC_cd4a1.dir\\Debug\\cmTC_cd4a1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-76v7nt/Debug/cmTC_cd4a1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-76v7nt/Debug/cmTC_cd4a1.lib" /MACHINE:X64  /machine:x64 cmTC_cd4a1.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_cd4a1.vcxproj -> C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76v7nt\\Debug\\cmTC_cd4a1.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_cd4a1.dir\\Debug\\cmTC_cd4a1.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_cd4a1.dir\\Debug\\cmTC_cd4a1.tlog\\cmTC_cd4a1.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76v7nt\\cmTC_cd4a1.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.35
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-4o8qa8"
+      binary: "C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-4o8qa8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-4o8qa8'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_198d8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 18.11.2023 19:42:42.
+        
+        Projekt "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4o8qa8\\cmTC_198d8.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_198d8.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4o8qa8\\Debug\\".
+          Tworzenie katalogu "cmTC_198d8.dir\\Debug\\cmTC_198d8.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_198d8.dir\\Debug\\cmTC_198d8.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_198d8.dir\\Debug\\cmTC_198d8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_198d8.dir\\Debug\\\\" /Fd"cmTC_198d8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4o8qa8\\src.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32824 dla x64
+          src.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_198d8.dir\\Debug\\\\" /Fd"cmTC_198d8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4o8qa8\\src.c"
+        C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4o8qa8\\src.c(1,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'pthread.h': No such file or directory [C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4o8qa8\\cmTC_198d8.vcxproj]
+        Kompilowanie projektu "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4o8qa8\\cmTC_198d8.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4o8qa8\\cmTC_198d8.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4o8qa8\\src.c(1,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'pthread.h': No such file or directory [C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4o8qa8\\cmTC_198d8.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 1
+        
+        Czas, który upłynął: 00:00:00.23
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-t38a0g"
+      binary: "C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-t38a0g"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-t38a0g'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_82818.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 18.11.2023 19:42:43.
+        
+        Projekt "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t38a0g\\cmTC_82818.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_82818.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t38a0g\\Debug\\".
+          Tworzenie katalogu "cmTC_82818.dir\\Debug\\cmTC_82818.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_82818.dir\\Debug\\cmTC_82818.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_82818.dir\\Debug\\cmTC_82818.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82818.dir\\Debug\\\\" /Fd"cmTC_82818.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t38a0g\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32824 dla x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82818.dir\\Debug\\\\" /Fd"cmTC_82818.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t38a0g\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t38a0g\\Debug\\cmTC_82818.exe" /INCREMENTAL /ILK:"cmTC_82818.dir\\Debug\\cmTC_82818.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-t38a0g/Debug/cmTC_82818.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-t38a0g/Debug/cmTC_82818.lib" /MACHINE:X64  /machine:x64 cmTC_82818.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: nie można otworzyć pliku "pthreads.lib" [C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t38a0g\\cmTC_82818.vcxproj]
+        Kompilowanie projektu "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t38a0g\\cmTC_82818.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t38a0g\\cmTC_82818.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy Link) -> 
+          LINK : fatal error LNK1104: nie można otworzyć pliku "pthreads.lib" [C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t38a0g\\cmTC_82818.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 1
+        
+        Czas, który upłynął: 00:00:00.27
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-h2487q"
+      binary: "C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-h2487q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-h2487q'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_551b3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 18.11.2023 19:42:43.
+        
+        Projekt "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2487q\\cmTC_551b3.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_551b3.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2487q\\Debug\\".
+          Tworzenie katalogu "cmTC_551b3.dir\\Debug\\cmTC_551b3.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_551b3.dir\\Debug\\cmTC_551b3.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_551b3.dir\\Debug\\cmTC_551b3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_551b3.dir\\Debug\\\\" /Fd"cmTC_551b3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2487q\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32824 dla x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_551b3.dir\\Debug\\\\" /Fd"cmTC_551b3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2487q\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2487q\\Debug\\cmTC_551b3.exe" /INCREMENTAL /ILK:"cmTC_551b3.dir\\Debug\\cmTC_551b3.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-h2487q/Debug/cmTC_551b3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ddnow/Documents/Projects/C++/bakcyl/gildedrose-refactoring-kata/cpp/build/CMakeFiles/CMakeScratch/TryCompile-h2487q/Debug/cmTC_551b3.lib" /MACHINE:X64  /machine:x64 cmTC_551b3.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: nie można otworzyć pliku "pthread.lib" [C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2487q\\cmTC_551b3.vcxproj]
+        Kompilowanie projektu "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2487q\\cmTC_551b3.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2487q\\cmTC_551b3.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy Link) -> 
+          LINK : fatal error LNK1104: nie można otworzyć pliku "pthread.lib" [C:\\Users\\ddnow\\Documents\\Projects\\C++\\bakcyl\\gildedrose-refactoring-kata\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h2487q\\cmTC_551b3.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 1
+        
+        Czas, który upłynął: 00:00:00.27
+        
+      exitCode: 1
+...
