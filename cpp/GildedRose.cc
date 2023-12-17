@@ -1,84 +1,83 @@
 #include "GildedRose.h"
 
+const int MAX_QUALITY = 50;
+const int BACKSTAGE_QUALITY_INCREMENT = 11;
+const int BACKSTAGE_QUALITY_INCREMENT2 = 6;
 
-GildedRose::GildedRose(::std::vector<Item> const& items) : items(items)
-{}
+const std::string SULFURAS = "Sulfuras, Hand of Ragnaros";
+const std::string BACKSTAGE_PASS = "Backstage passes to a TAFKAL80ETC concert";
+const std::string AGED_BRIE = "Aged Brie";
 
-GildedRose::GildedRose(::std::vector<Item> && items) : items(::std::move(items))
-{}
+class GildedRoseItem {
+    Item& item;
 
-void GildedRose::updateQuality()
-{
-    for (int i = 0; i < items.size(); i++)
-    {
-        if (items[i].name != "Aged Brie" && items[i].name != "Backstage passes to a TAFKAL80ETC concert")
-        {
-            if (items[i].quality > 0)
-            {
-                if (items[i].name != "Sulfuras, Hand of Ragnaros")
-                {
-                    items[i].quality = items[i].quality - 1;
-                }
+    bool isSulfuras() const {
+        return item.name == SULFURAS;
+    }
+
+    bool isBackstagePass() const {
+        return item.name == BACKSTAGE_PASS;
+    }
+
+    bool isAgedBrie() const {
+        return item.name == AGED_BRIE;
+    }
+
+    bool isNormalItem() const {
+        return !isAgedBrie() && !isBackstagePass();
+    }
+
+    void decreaseQuality() {
+        if (item.quality > 0)
+            item.quality -= 1;
+    }
+
+    void increaseQuality() {
+        if (item.quality < MAX_QUALITY)
+            item.quality += 1;
+    }
+
+    void handleBackstagePassQuality() {
+        if (item.sellIn < BACKSTAGE_QUALITY_INCREMENT)
+            increaseQuality();
+        if (item.sellIn < BACKSTAGE_QUALITY_INCREMENT2)
+            increaseQuality();
+    }
+    
+public:
+    explicit GildedRoseItem(Item& item) : item(item) {}
+
+    void updateQuality() {
+        if (!isSulfuras()) {
+            if (isNormalItem())
+                decreaseQuality();
+            else {
+                increaseQuality();
+                if (isBackstagePass())
+                    handleBackstagePassQuality();
+            }
+
+            item.sellIn--;
+
+            if (item.sellIn < 0) {
+                if (isNormalItem())
+                    decreaseQuality();
+                else if (isBackstagePass())
+                    item.quality = 0;
+                else if (isAgedBrie() && item.quality < MAX_QUALITY)
+                    increaseQuality();
             }
         }
-        else
-        {
-            if (items[i].quality < 50)
-            {
-                items[i].quality = items[i].quality + 1;
+    }
+};
 
-                if (items[i].name == "Backstage passes to a TAFKAL80ETC concert")
-                {
-                    if (items[i].sellIn < 11)
-                    {
-                        if (items[i].quality < 50)
-                        {
-                            items[i].quality = items[i].quality + 1;
-                        }
-                    }
+GildedRose::GildedRose(std::vector<Item> const& items) : items(items) {}
 
-                    if (items[i].sellIn < 6)
-                    {
-                        if (items[i].quality < 50)
-                        {
-                            items[i].quality = items[i].quality + 1;
-                        }
-                    }
-                }
-            }
-        }
+GildedRose::GildedRose(std::vector<Item>&& items) : items(std::move(items)) {}
 
-        if (items[i].name != "Sulfuras, Hand of Ragnaros")
-        {
-            items[i].sellIn = items[i].sellIn - 1;
-        }
-
-        if (items[i].sellIn < 0)
-        {
-            if (items[i].name != "Aged Brie")
-            {
-                if (items[i].name != "Backstage passes to a TAFKAL80ETC concert")
-                {
-                    if (items[i].quality > 0)
-                    {
-                        if (items[i].name != "Sulfuras, Hand of Ragnaros")
-                        {
-                            items[i].quality = items[i].quality - 1;
-                        }
-                    }
-                }
-                else
-                {
-                    items[i].quality = items[i].quality - items[i].quality;
-                }
-            }
-            else
-            {
-                if (items[i].quality < 50)
-                {
-                    items[i].quality = items[i].quality + 1;
-                }
-            }
-        }
+void GildedRose::updateQuality() {
+    for (Item& item : items) {
+        GildedRoseItem gildedRoseItem(item);
+        gildedRoseItem.updateQuality();
     }
 }
